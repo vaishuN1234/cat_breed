@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catish</title>
+</head>
+
+
+<style>
+    body {
+
+    background-image:url("https://th.bing.com/th/id/OIP.oxUqIUKcU-BSv11BEk0-kAHaEK?w=330&h=187&c=7&o=5&pid=1.7");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
+
+    }
+</style>
+<body
+<center><h1> Catish </h1></center><br><br>
+
+<form action="http://localhost:5000/" method="post">
+        <div><center>
+
+            <h1>Select Cat You Want:</h1>
+            <select name="opt">
+
+                <option value="--Select--">--Select--</option>
+                <option value = "Fluffy Ragdoll Cat">Fluffy Ragdoll Cat</option>
+                <option value = "Persian Cat">Persian Cat</option>
+                <option value = "Norwegian Forest Cat">Norwegian Forest Cat</option>
+
+
+            </select><br><br>
+
+            <input type="submit">   <input type="reset"> <br><br>
+
+
+        </center></div>
+        <center><h1>{{resp}}</h1></center><br>
+</form>
+
+</body>
+</html>
